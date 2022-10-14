@@ -1,0 +1,10 @@
+Weight Regularization
+  1. 손실함수에서 제약조건을 적용하여 오버피팅을 최소하는 방법
+  2. Overfitting은 특정한 가중치의 값이 커질 수 록 발생 확률이 높다.
+  3. 정형화 방식: 가중치 값이 커지는 것을 방지하고자 특정값을 손실함수에 더해주는것이며 
+                  특정값은 L1, L2 Regularization을 통하여 결정한다. 
+  4. L1 Regularization, L2 Regularization
+  5. Weight Decay (가중치 감소) 
+     - ex_pytorch) optimizer = torch.optim.SGD(model.parameters(), lr = learning_rate, weight_decay = 0.1)
+                   
+  
