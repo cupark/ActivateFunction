@@ -1,0 +1,24 @@
+1. Segmentation
+   - 분할, Image의 Pixel에 대한 영역이 어떠한 의미를 갖는지에 따라 분리하는 것.
+   
+   1) Semantic Segmentation
+      - Class에 대한 인식(Localization)하고 판별(Classification)
+      - 의미대로 Image를 분할 (Pixel 분류)
+      (1) No Object
+      (2) Localization
+      (3) Classification
+      
+   2) Instance Segmentation
+      - Object에 대한 위치를 정확히 식별하는 객체 인식(Object Detection)
+      - Object대로 사진을 분할 (Pixel 분류)
+      (1) Multiple Objects
+      (2) Object Detection
+      
+   3) 개념 용어
+      - Classification - 해당 사진이 특정 Object를 나타내는가 판별
+      - Localization - 해당 사진 중 특정 관심위치를 골라냄
+      - Object Detection - 사진에 있는 해당 Object의 Class와 Local을 골라냄
+      
+      
+      
+      
