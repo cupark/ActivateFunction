@@ -1,0 +1,5 @@
+Feature Map
+  - Activation Map과 Feature Map의 차이
+    Feature Map은 Convolution 연산으로 만들어진 Matrix이다.
+    Activation Map은 Feature Map에 Activation Function을 적용한 결과이다.
+    따라서 Input Image -> Filter -> Conv(Feature Map) -> ReLu(Activation Function) -> Activation Map
